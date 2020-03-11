@@ -1,0 +1,181 @@
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:06] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:07] [Class-startAppiumServer][Method-Map] 开始启动Appium-Server
+[ INFO ] [2020-03-11-00:00:07] [Class-startAppiumServer][Method-Map] Appium Server启动命令：appium -p 4067 -U NXTGY17210000090>/Users/zhangquli/IdeaProjects/UIAuto/logs/20200311120007-NXTGY17210000090.log
+[ INFO ] [2020-03-11-00:00:07] [Class-startAppiumServer][Method-Map] Appium Server启动在【4067】端口
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:07] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:17] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:00:17] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:00:17] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[NXTGY17210000090]
+[ INFO ] [2020-03-11-00:00:17] [Class-DriverBase] 启动的UUID是:[NXTGY17210000090],启动的Appium端口是：[4067]
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 当前APP已安装
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackage：tv.danmaku.bili
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivity：tv.danmaku.bili.ui.splash.SplashActivity
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->NXTGY17210000090
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-deviceReadyTimeout超时时间60S
+[ INFO ] [2020-03-11-00:00:17] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【4067】端口,UUID是：【NXTGY17210000090】...
+[ INFO ] [2020-03-11-00:00:17] url: http://127.0.0.1:4067/wd/hub
+[ INFO ] [2020-03-11-00:00:17] caps: Capabilities [{appPackage=tv.danmaku.bili, appActivity=tv.danmaku.bili.ui.splash.SplashActivity, resetKeyBoard=true, noSign=true, newCommandTimeout=600, unicodeKeyBoard=true, automationName=UiAutomator1, udid=NXTGY17210000090, deviceName=Android, deviceReadyTimeout=60}]
+[ INFO ] [2020-03-11-00:00:23] [Class-initDriver][Method-getDriver] 启动Andriod Driver成功...
+[ INFO ] [2020-03-11-00:00:24] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/agree
+[ INFO ] [2020-03-11-00:00:24] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (d9c1ba5a-ab04-4d55-b1af-7fcd579ef142)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:00:26] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (d9c1ba5a-ab04-4d55-b1af-7fcd579ef142)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:00:32] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/text3
+[ INFO ] [2020-03-11-00:00:42] [Class-homePage] 未定位到元素
+[ INFO ] [2020-03-11-00:00:42] [Class-pageBase1][Method-click] 元素为空 无法点击操作
+[ INFO ] [2020-03-11-00:00:48] x为1080y为1794
+[ INFO ] [2020-03-11-00:00:49] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:00:52] x为1080y为1794
+[ INFO ] [2020-03-11-00:00:53] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:00:59] [Class-by][Method-by] 当前定位方式是xpath,定位元素//*[@text='追番']
+[ INFO ] [2020-03-11-00:01:00] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (d9c1ba5a-ab04-4d55-b1af-7fcd579ef142)] -> xpath: //*[@text='追番']]
+[ INFO ] [2020-03-11-00:01:00] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (d9c1ba5a-ab04-4d55-b1af-7fcd579ef142)] -> xpath: //*[@text='追番']]
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:32] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:33] [Class-startAppiumServer][Method-Map] 开始启动Appium-Server
+[ INFO ] [2020-03-11-00:05:33] [Class-startAppiumServer][Method-Map] Appium Server启动命令：appium -p 2373 -U NXTGY17210000090>/Users/zhangquli/IdeaProjects/UIAuto/logs/20200311120533-NXTGY17210000090.log
+[ INFO ] [2020-03-11-00:05:33] [Class-startAppiumServer][Method-Map] Appium Server启动在【2373】端口
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:33] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:43] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:05:43] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:05:43] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[NXTGY17210000090]
+[ INFO ] [2020-03-11-00:05:43] [Class-DriverBase] 启动的UUID是:[NXTGY17210000090],启动的Appium端口是：[2373]
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 当前APP已安装
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackage：tv.danmaku.bili
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivity：tv.danmaku.bili.ui.splash.SplashActivity
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->NXTGY17210000090
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-deviceReadyTimeout超时时间60S
+[ INFO ] [2020-03-11-00:05:43] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【2373】端口,UUID是：【NXTGY17210000090】...
+[ INFO ] [2020-03-11-00:05:43] url: http://127.0.0.1:2373/wd/hub
+[ INFO ] [2020-03-11-00:05:43] caps: Capabilities [{appPackage=tv.danmaku.bili, appActivity=tv.danmaku.bili.ui.splash.SplashActivity, resetKeyBoard=true, noSign=true, newCommandTimeout=600, unicodeKeyBoard=true, automationName=UiAutomator1, udid=NXTGY17210000090, deviceName=Android, deviceReadyTimeout=60}]
+[ INFO ] [2020-03-11-00:05:49] [Class-initDriver][Method-getDriver] 启动Andriod Driver成功...
+[ INFO ] [2020-03-11-00:05:49] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/agree
+[ INFO ] [2020-03-11-00:05:50] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (d2b3d92d-eea2-43c9-ad32-daf611b70f96)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:05:51] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (d2b3d92d-eea2-43c9-ad32-daf611b70f96)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:05:57] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/text3
+[ INFO ] [2020-03-11-00:06:08] [Class-homePage] 未定位到元素
+[ INFO ] [2020-03-11-00:06:08] [Class-pageBase1][Method-click] 元素为空 无法点击操作
+[ INFO ] [2020-03-11-00:06:14] x为1080y为1794
+[ INFO ] [2020-03-11-00:06:15] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:06:18] x为1080y为1794
+[ INFO ] [2020-03-11-00:06:19] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:06:25] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/image
+[ INFO ] [2020-03-11-00:06:25] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (d2b3d92d-eea2-43c9-ad32-daf611b70f96)] -> id: tv.danmaku.bili:id/image]
+[ INFO ] [2020-03-11-00:06:26] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (d2b3d92d-eea2-43c9-ad32-daf611b70f96)] -> id: tv.danmaku.bili:id/image]
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:06:54] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:06:55] [Class-startAppiumServer][Method-Map] 开始启动Appium-Server
+[ INFO ] [2020-03-11-00:06:55] [Class-startAppiumServer][Method-Map] Appium Server启动命令：appium -p 5797 -U NXTGY17210000090>/Users/zhangquli/IdeaProjects/UIAuto/logs/20200311120655-NXTGY17210000090.log
+[ INFO ] [2020-03-11-00:06:55] [Class-startAppiumServer][Method-Map] Appium Server启动在【5797】端口
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:06:55] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:07:05] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 当前脚本执行在Mac&Linux系统上
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2020-03-11-00:07:05] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2020-03-11-00:07:05] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[NXTGY17210000090]
+[ INFO ] [2020-03-11-00:07:05] [Class-DriverBase] 启动的UUID是:[NXTGY17210000090],启动的Appium端口是：[5797]
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 当前APP已安装
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackage：tv.danmaku.bili
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivity：tv.danmaku.bili.ui.splash.SplashActivity
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->NXTGY17210000090
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-deviceReadyTimeout超时时间60S
+[ INFO ] [2020-03-11-00:07:05] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【5797】端口,UUID是：【NXTGY17210000090】...
+[ INFO ] [2020-03-11-00:07:05] url: http://127.0.0.1:5797/wd/hub
+[ INFO ] [2020-03-11-00:07:05] caps: Capabilities [{appPackage=tv.danmaku.bili, appActivity=tv.danmaku.bili.ui.splash.SplashActivity, resetKeyBoard=true, noSign=true, newCommandTimeout=600, unicodeKeyBoard=true, automationName=UiAutomator1, udid=NXTGY17210000090, deviceName=Android, deviceReadyTimeout=60}]
+[ INFO ] [2020-03-11-00:07:11] [Class-initDriver][Method-getDriver] 启动Andriod Driver成功...
+[ INFO ] [2020-03-11-00:07:11] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/agree
+[ INFO ] [2020-03-11-00:07:12] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (82cdb691-d857-4c9f-a790-6a9838c7bf36)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:07:14] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (82cdb691-d857-4c9f-a790-6a9838c7bf36)] -> id: tv.danmaku.bili:id/agree]
+[ INFO ] [2020-03-11-00:07:20] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/text3
+[ INFO ] [2020-03-11-00:07:31] [Class-homePage] 未定位到元素
+[ INFO ] [2020-03-11-00:07:31] [Class-pageBase1][Method-click] 元素为空 无法点击操作
+[ INFO ] [2020-03-11-00:07:37] x为1080y为1794
+[ INFO ] [2020-03-11-00:07:38] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:07:41] x为1080y为1794
+[ INFO ] [2020-03-11-00:07:42] 全屏滑动操作  startx972 endx108 starty897 endy897
+[ INFO ] [2020-03-11-00:07:48] [Class-by][Method-by] 当前定位方式是id,定位元素tv.danmaku.bili:id/image
+[ INFO ] [2020-03-11-00:07:48] [Class-pageBase1][Method-element] 元素为[[AndroidDriver:  on LINUX (82cdb691-d857-4c9f-a790-6a9838c7bf36)] -> id: tv.danmaku.bili:id/image]
+[ INFO ] [2020-03-11-00:07:49] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver:  on LINUX (82cdb691-d857-4c9f-a790-6a9838c7bf36)] -> id: tv.danmaku.bili:id/image]
+[ INFO ] [2020-03-11-00:35:30] Connect to mongodb successfully

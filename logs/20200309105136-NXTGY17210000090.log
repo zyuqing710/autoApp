@@ -1,0 +1,321 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 5541
+[35m[Appium][39m   udid: NXTGY17210000090
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m-U,--udid[39m => --default-capabilities '{"udid":"NXTGY17210000090"}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   udid: NXTGY17210000090
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:5541
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"tv.danmaku.bili","appActivity":"tv.danmaku.bili.ui.splash.SplashActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"automationName":"UiAutomator1","udid":"NXTGY17210000090","platformName":"Android","deviceName":"Android","deviceReadyTimeout":60}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"tv.danmaku.bili","appActivity":"tv.danmaku.bili.ui.splash.SplashActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"automationName":"UiAutomator1","udid":"NXTGY17210000090","platformName":"Android","deviceName":"Android","deviceReadyTimeout":60},null,null]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1583765506743 (22:51:46 GMT+0800 (China Standard Time))
+[35m[Appium][39m Appium v1.16.0 creating new AndroidDriver (v4.21.0) session
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "udid": "NXTGY17210000090",
+[debug] [35m[BaseDriver][39m   "appPackage": "tv.danmaku.bili",
+[debug] [35m[BaseDriver][39m   "appActivity": "tv.danmaku.bili.ui.splash.SplashActivity",
+[debug] [35m[BaseDriver][39m   "resetKeyBoard": true,
+[debug] [35m[BaseDriver][39m   "noSign": true,
+[debug] [35m[BaseDriver][39m   "newCommandTimeout": 600,
+[debug] [35m[BaseDriver][39m   "unicodeKeyBoard": true,
+[debug] [35m[BaseDriver][39m   "automationName": "UiAutomator1",
+[debug] [35m[BaseDriver][39m   "platformName": "Android",
+[debug] [35m[BaseDriver][39m   "deviceName": "Android",
+[debug] [35m[BaseDriver][39m   "deviceReadyTimeout": 60
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   resetKeyBoard
+[35m[BaseDriver][39m   unicodeKeyBoard
+[35m[BaseDriver][39m Session created with session id: cdda8586-87f5-4488-937d-590883c83ded
+[35m[ADB][39m Found 0 'build-tools' folders under '/Users/zhangquli/Downloads/android-sdk-macosx' (newest first):
+[35m[ADB][39m Using 'adb' from '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m Connected devices: [{"udid":"NXTGY17210000090","state":"device"}]
+[35m[AndroidDriver][39m Using device: NXTGY17210000090
+[35m[ADB][39m Using 'adb' from '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb'
+[debug] [35m[ADB][39m Setting device id to NXTGY17210000090
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 24
+[debug] [35m[ADB][39m Device API level: 24
+[35m[AndroidDriver][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run tv.danmaku.bili directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell pm list packages tv.danmaku.bili'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 wait-for-device'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell pgrep \^appium\\.settings\$'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 7.0
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell wm size'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': FRD-DL00
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': HUAWEI
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for tv.danmaku.bili
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell dumpsys package tv.danmaku.bili'
+[debug] [35m[ADB][39m 'tv.danmaku.bili' is installed
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell am force-stop tv.danmaku.bili'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell pm clear tv.danmaku.bili'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'tv.danmaku.bili' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell mkdir -p /data/local'
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 push /usr/local/lib/node_modules/appium/node_modules/appium-android-driver/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting IDs of all 'uiautomator' processes
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell pgrep \^uiautomator\$'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","NXTGY17210000090","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","tv.danmaku.bili","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Loading json...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell am start -W -n tv.danmaku.bili/tv.danmaku.bili.ui.splash.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session cdda8586-87f5-4488-937d-590883c83ded added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1583765512495 (22:51:52 GMT+0800 (China Standard Time))
+[debug] [35m[MJSONWP (cdda8586)][39m Cached the protocol value 'MJSONWP' for the new session cdda8586-87f5-4488-937d-590883c83ded
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"udid":"NXTGY17210000090","appPackage":"tv.danmaku.bili","appActivity":"tv.danmaku.bili.ui.splash.SplashActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"automationName":"UiAutomator1","platformName":"Android","deviceName":"Android","deviceReadyTimeout":60},"udid":"NXTGY17210000090","appPackage":"tv.danmaku.bili","appActivity":"tv.danmaku.bili.ui.splash.SplashActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"automationName":"UiAutomator1","platformName":"Android","deviceName":"NXTGY17210000090","deviceReadyTimeout":60,"deviceUDID":"NXTGY17210000090","platformVersion":"7.0","deviceScreenSize":"1080x1920","deviceModel":"FRD-DL00","deviceManufacturer":"HUAWEI"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m5762 ms - 1030[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":10000}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 10000ms
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts [39m[32m200[39m [90m2 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"tv.danmaku.bili:id/agree"}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.findElement() with args: ["id","tv.danmaku.bili:id/agree","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 10000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/agree","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/agree","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/agree' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/agree]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element [39m[32m200[39m [90m405 ms - 129[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1"}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.click() with args: ["1","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element/1/click [39m[32m200[39m [90m2418 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":10000}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 10000ms
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts [39m[32m200[39m [90m2 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"tv.danmaku.bili:id/text3"}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.findElement() with args: ["id","tv.danmaku.bili:id/text3","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 10000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/text3","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/text3","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/text3' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/text3]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element [39m[32m200[39m [90m51 ms - 129[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element/2/click[39m
+[35m[HTTP][39m [90m{"id":"2"}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.click() with args: ["2","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element/2/click [39m[32m200[39m [90m3144 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.getWindowSize() with args: ["current","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.getWindowSize() result: {"height":1794,"width":1080}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size [39m[32m200[39m [90m10 ms - 100[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.getWindowSize() with args: ["current","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.getWindowSize() result: {"height":1794,"width":1080}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size [39m[32m200[39m [90m8 ms - 100[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":864,"y":897}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":0,"y":897}},{"action":"release","options":{}}]}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":864,"y":897}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":0,"y":897}},{"action":"release","options":{}}],"cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":864,"startY":897,"endX":0,"endY":897,"steps":56}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":864,"startY":897,"endX":0,"endY":897,"steps":56}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: swipe
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Swiping from [x=864.0, y=897.0] to [x=540.0, y=897.0] with steps: 56
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.performTouch() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/touch/perform [39m[32m200[39m [90m1064 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.getWindowSize() with args: ["current","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.getWindowSize() result: {"height":1794,"width":1080}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size [39m[32m200[39m [90m11 ms - 100[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.getWindowSize() with args: ["current","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1794,"width":1080}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.getWindowSize() result: {"height":1794,"width":1080}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/window/current/size [39m[32m200[39m [90m8 ms - 100[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"press","options":{"x":864,"y":897}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":0,"y":897}},{"action":"release","options":{}}]}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":864,"y":897}},{"action":"wait","options":{"ms":2000}},{"action":"moveTo","options":{"x":0,"y":897}},{"action":"release","options":{}}],"cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":864,"startY":897,"endX":0,"endY":897,"steps":56}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":864,"startY":897,"endX":0,"endY":897,"steps":56}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: swipe
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1794]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Swiping from [x=864.0, y=897.0] to [x=540.0, y=897.0] with steps: 56
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.performTouch() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/touch/perform [39m[32m200[39m [90m992 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":10000}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.timeouts() with args: ["implicit",10000,null,null,null,"cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m MJSONWP timeout arguments: {"type":"implicit","ms":10000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 10000ms
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/timeouts [39m[32m200[39m [90m2 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"tv.danmaku.bili:id/image"}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.findElement() with args: ["id","tv.danmaku.bili:id/image","cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 10000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+[debug] [35m[BaseDriver][39m Waited for 2514 ms so far
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+[debug] [35m[BaseDriver][39m Waited for 4746 ms so far
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"tv.danmaku.bili:id/image","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'tv.danmaku.bili:id/image' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=tv.danmaku.bili:id/image]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+[debug] [35m[MJSONWP (cdda8586)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [35m[MJSONWP (cdda8586)][39m     at AndroidDriver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/element [39m[31m500[39m [90m13054 ms - 164[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/appium/app/close[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP (cdda8586)][39m Calling AppiumDriver.closeApp() with args: ["cdda8586-87f5-4488-937d-590883c83ded"]
+[debug] [35m[ADB][39m Running '/Users/zhangquli/Downloads/android-sdk-macosx/platform-tools/adb -P 5037 -s NXTGY17210000090 shell am force-stop tv.danmaku.bili'
+[debug] [35m[MJSONWP (cdda8586)][39m Responding to client with driver.closeApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/cdda8586-87f5-4488-937d-590883c83ded/appium/app/close [39m[32m200[39m [90m531 ms - 76[39m
+[35m[HTTP][39m [90m[39m
