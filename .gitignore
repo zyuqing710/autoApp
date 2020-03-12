@@ -1,1 +1,6 @@
 /logs
+target
+.idea
+*.iml
+*.ipr
+.mvn
